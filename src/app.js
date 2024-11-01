@@ -9,3 +9,5 @@ app.use(favicon(path.join(__dirname, '../public', 'favicon.ico')))
 app.use(express.static('public'))
 
 app.listen(PORT, console.log(`http server listening on port ${PORT}`))
+
+module.exports = app
